@@ -1,10 +1,10 @@
-## Commit
+# Commit
 
-### Format of a commit message
+## Format of a commit message
 
 **git commit -m "[action](#action)(*functionality*): *files*"**
 
-#### <a name="action">action</a>
+### <a name="action">action</a>
 
 * **Add**
 
@@ -14,6 +14,14 @@
     
         git commit -m "Add(foo): bar"
         
+* **Update**
+
+    *One or more files have had additions and / or deletions in their code*
+    
+    example:
+    
+        git commit -m "Update(foo): bar"
+      
 * **Fix**
 
     *One or more files had bug(s) fixed*

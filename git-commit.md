@@ -60,4 +60,4 @@
     
 example:
     
-![[img] git commit on multiple lines](https://github.com/EpitechIT2020/B-CPE-101-BDX-1-1-bistromatic-victor.lair-henry/blob/master/doc/resources/git_commit_multiple_lines.png "git commit on multiple lines")
+![[img] git commit on multiple lines](https://github.com/Mescarr/good-practices/blob/main/doc/resources/git_commit_multiple_lines.png "git commit on multiple lines")

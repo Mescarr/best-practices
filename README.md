@@ -8,7 +8,7 @@ PROJECT_DESCRIPTION
 
 ### Format of a commit message
 
-`git commit -m "[action](#action)(*functionality*): *files*"`
+`git commit -m "action(functionality): description"`
 
 #### <a name="action">action</a>
 
@@ -36,11 +36,11 @@ PROJECT_DESCRIPTION
 
 	`git commit -m "Style(foo): bar"`
         
-* **Refactory**
+* **Refactoring**
 
 	>*One or more files have undergone code refactoring*
     
-	`git commit -m "Refactory(foo): bar"`
+	`git commit -m "Refactoring(foo): bar"`
         
 * **Remove**
 
@@ -50,12 +50,13 @@ PROJECT_DESCRIPTION
         
 ### Multiple actions
 
->*You can also write a commit with multiple actions on multiple lines.*
+>*You can also write a commit on multiple lines.*
 
 ```bash
  $ git commit -F - <<- END
- > Add(foo): file1 & file2 & file3
- > Style(foo): file4
- > Fix(foo): file7
+ > Add(foo): general description
+ > detailed description
+ > on
+ > multiple lines
  > END
 ```

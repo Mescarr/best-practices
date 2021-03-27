@@ -50,11 +50,12 @@ PROJECT_DESCRIPTION
         
 ### Multiple actions
 
->*You can also write a commit on multiple lines.*
+>*You can also write a commit on multiple lines (always leave the second line blank).*
 
 ```bash
  $ git commit -F - <<- END
  > Add(foo): general description
+ >
  > detailed description
  > on
  > multiple lines
